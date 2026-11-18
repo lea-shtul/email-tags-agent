@@ -1,0 +1,19 @@
+# Secrets - never commit
+.env
+credentials.json
+token.json
+.streamlit/secrets.toml
+
+# Personal data
+rules.yaml
+*.bak
+
+# Private build briefs / specs (not published)
+Build Brief for Claude Email Labeling Agent.md
+*[Bb]rief*.md
+*[Ss]pec*.md
+
+# Local environment
+.venv/
+__pycache__/
+*.pyc

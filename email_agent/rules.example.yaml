@@ -1,0 +1,10 @@
+# Copy this file to rules.yaml (ignored by git) and put the real group addresses there.
+# match: one full address, compared case-insensitively and exactly with the email's
+#        recipient addresses (To, Cc, List-Id). The first matching rule wins.
+# label: must be a label in labels.yaml with rule_only: true.
+- match: programming-group@example.com
+  label: FULLSTACK
+- match: yearbook-group@example.com
+  label: שנתון
+- match: class-group@example.com
+  label: CLASS

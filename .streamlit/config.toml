@@ -1,0 +1,17 @@
+# Theme for the Streamlit UI (read from the folder where `streamlit run` is started: the project root).
+[theme]
+base = "light"
+primaryColor = "#3F5BA9"              # calm indigo: buttons, highlights
+backgroundColor = "#F8FAFC"           # near-white background
+secondaryBackgroundColor = "#EEF2F7"  # sidebar, cards
+textColor = "#1E293B"                 # dark slate
+borderColor = "#E2E8F0"
+baseRadius = "0.75rem"                # rounded corners
+# Heebo (Hebrew + Latin) from Google Fonts; falls back to the default sans-serif if it cannot load
+font = "Heebo:https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap, sans-serif"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

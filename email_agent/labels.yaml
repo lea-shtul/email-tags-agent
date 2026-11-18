@@ -1,0 +1,22 @@
+# Permanent labels. rule_only: true -> applied only through rules.yaml, never shown to the model.
+- name: טכנולוגיה
+  description: תוכן על טכנולוגיה, תכנות ובינה מלאכותית - כתבות, ניוזלטרים טכנולוגיים, כלים למפתחים, עדכוני מוצר והכרזות על מודלים ו-API. לא כולל התראות מרשתות חברתיות.
+  rule_only: false
+- name: פרסומות
+  description: דיוור שיווקי מחנויות ומותגים - מבצעים, הנחות, קופונים, מוצרים חדשים והצעות לרכישה.
+  rule_only: false
+- name: אבטחה וחשבונות
+  description: הודעות אוטומטיות על החשבונות שלי - התראות אבטחה, כניסות, אימות או אישור חשבון, הרשאות של אפליקציות לחשבון, ומיילי "ברוכים הבאים" אחרי הרשמה.
+  rule_only: false
+- name: רשתות חברתיות
+  description: התראות ועדכונים מרשתות חברתיות ומקצועיות ומקהילות אונליין (למשל LinkedIn, Pinterest, duallin) - גם כשהתוכן קשור לטכנולוגיה.
+  rule_only: false
+- name: FULLSTACK
+  description: קבוצת התכנות (Google Group).
+  rule_only: true
+- name: שנתון
+  description: קבוצת השנתון (Google Group).
+  rule_only: true
+- name: CLASS
+  description: קבוצת CLASS (Google Group).
+  rule_only: true
