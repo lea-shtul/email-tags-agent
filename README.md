@@ -55,7 +55,9 @@ Emails (3):
   • Weekly openings near you               | digest@jobs.example
 [a] approve   [r] rename   [s] skip   [q] skip all remaining  >
 ```
+כך נראה שלב הסקירה בממשק (מצב דמו, מיילים מומצאים):
 
+![שלב הסקירה בממשק Streamlit](docs/images/ui-review.png)
 ---
 
 ## ארכיטקטורת LangGraph
