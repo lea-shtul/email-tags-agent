@@ -116,6 +116,17 @@ flowchart TD
 | `review_label` | עצירת הגרף לקבלת החלטה אנושית |
 | `finish` | סיום התהליך והצגת סיכום |
 
+### הרצה בפועל ב-LangSmith
+
+הטרייס של ריצה אחת מראה את הלולאה: `next_email`, `route`, `classify`, `decide`, `apply`, וחוזר חלילה.
+
+![טרייס של ריצה מלאה ב-LangSmith](docs/images/trace-full-run.png)
+
+וכך נראה צעד סיווג אחד: הקלט (מייל מומצא) והפלט (תגית וביטחון):
+
+![צעד classify_email בטרייס](docs/images/trace-classify-step.png)
+
+
 ### State וניהול הריצה
 
 הגרף משתמש ב-`State` שמוגדר כ-`TypedDict` בקובץ `models.py`, ובמודלי Pydantic עבור נתוני המיילים, תוצאות הסיווג וההצעות. ב-State נשמרים בין היתר המיילים, תוצאות הסיווג, המיילים שממתינים להחלטה, ההצעות ומיקום הסקירה.
