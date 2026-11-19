@@ -56,11 +56,10 @@ Emails (3):
 [a] approve   [r] rename   [s] skip   [q] skip all remaining  >
 ```
 כך נראה שלב הסקירה בממשק (מצב דמו, מיילים מומצאים):
-<<<<<<< HEAD
 
-![שלב הסקירה בממשק Streamlit](docs/images/ui-review.png)
-=======
->>>>>>> a9aba976e3c8ce8fd4523eb5274c3af579cbd2fb
+
+
+
 
 ![שלב הסקירה בממשק Streamlit](docs/images/ui-review.png)
 ---
